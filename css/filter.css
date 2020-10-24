@@ -1,0 +1,88 @@
+
+.menu {
+	position: fixed;
+	top: 120px;
+	left: 0;
+	width: 300px;
+	height: calc(100vh - 120px);
+	background: #3A2073;
+}
+
+.menu__wrap {
+	position: absolute;
+	top: 3.5em;
+	bottom: 0;
+	overflow: hidden;
+	width: 100%;
+}
+.left
+{
+   position: fixed;
+    height: 325vh;
+    background: #3A2073;
+    color: #c3aef2;
+    overflow: auto;
+}
+.list-item
+{
+    color: #beb9c9;
+  padding: 20px;
+  border-bottom: 1px solid #220466;
+  font-size: 20px;
+    overflow: hidden;
+}
+
+h5
+{
+  text-align: center;
+    text-transform: uppercase;
+    color: #beb9c9;
+}
+.badge1
+{
+    background: #0f032b;
+    color: #beb9c9;
+    padding: 1px;
+    border-radius: 50%;
+}
+.angle-edit
+{
+    padding-top: 9px;
+}
+
+#loading
+{
+
+   position: fixed;
+    left: 50%;
+    background: url('/images/loader.gif') no-repeat center;
+    height:500px;
+    width: 400px;
+    vertical-align: middle;
+    text-align: center;
+    z-index: 1000;
+    display: none;
+}
+/* Scroll bar styling*/
+#style-1::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: rgba(0,0,0,0.1);
+  border: 1px solid #ccc;
+}
+
+#style-1::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: linear-gradient(left, #fff, #e4e4e4);
+  border: 1px solid #aaa;
+}
+
+#style-1::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+}
+
+#style-1::-webkit-scrollbar-thumb:active {
+  background: linear-gradient(left, #22ADD4, #1E98BA);
+}
+.scroll{
+    overflow-y:scroll;
+}

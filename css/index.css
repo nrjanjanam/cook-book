@@ -1,0 +1,90 @@
+body
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url("2.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    font-family: 'Satisfy', cursive;
+}
+section
+{
+    position: relative;
+    align-content: center;
+    top: calc(20%);
+    margin: auto;
+}
+form
+{
+    position: relative;
+    z-index: 1;
+    background: rgba(225, 230, 237,0.4);
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+form input
+{
+    outline: 1;
+    background: white;
+    width: 75%;
+    border: 0.1px solid #f4f5f7 ;
+    margin: 0 0 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 14px;    
+    transition: 0.25s;
+    border-radius: 5px;
+}
+form input:focus
+{
+    width: 100%;
+}
+form button
+{
+    text-transform: uppercase;
+    background-color: #3A2073;
+}
+
+.register-form
+{
+    margin-top: 10px;
+    display: none;
+}
+a
+{
+    color:white;
+}
+a:hover
+{
+    color: #f5af19;
+}
+b
+{
+    font-weight: 700;
+    
+}
+legend
+{
+    padding: 7.5px;
+    font-size: 40px
+   border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+small
+{
+    color: #EFDEDB;
+}
+.btn
+{
+    background: #3A2073;
+    color: #beb9c9;
+}
+.btn:hover
+{
+    color: #f5af19;
+    background: black;;
+}
